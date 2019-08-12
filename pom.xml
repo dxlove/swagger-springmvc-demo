@@ -12,7 +12,7 @@
     <properties>
         <spring.version>4.2.6.RELEASE</spring.version>
         <servlet.version>3.1.0</servlet.version>
-        <swagger2.version>2.6.1</swagger2.version>
+        <swagger2.version>2.9.2</swagger2.version>
     </properties>
 
     <dependencies>
@@ -28,11 +28,11 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>${swagger2.version}</version>
         </dependency>
-        <dependency>
+       <!-- <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-staticdocs</artifactId>
             <version>2.6.1</version>
-        </dependency>
+        </dependency>-->
         <!--                         swagger结束                   -->
 
         <!--spring-->
@@ -85,6 +85,32 @@
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
             <version>4.1.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.9.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>2.9.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-core-asl</artifactId>
+            <version>1.9.4</version>
         </dependency>
 
     </dependencies>
